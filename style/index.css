@@ -69,3 +69,70 @@ header{
     width: 1440px;
     height: 698px;
 }
+/* section-style */
+.section-main{
+    color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 42px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0%;
+text-align: left;
+}
+.section-description{
+    color: rgba(37, 36, 50, 0.5);
+font-family: Raleway;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.section-button{
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    font-size: 16px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 0%;
+padding: 12px 36px 12px 36px;
+}
+.section-image{
+
+}
+.main-section{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    gap: 220px;
+    left: 141px;
+    top: 814px;
+
+}
+.section-top{
+    width: 1140px;
+height: 328px;
+left: 141px;
+top: 814px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+}
+.section-image{
+position: static;
+width: 403px;
+height: 328px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 10px;
+border-radius: 10px;
+}
