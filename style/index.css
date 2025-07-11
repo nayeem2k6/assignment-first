@@ -350,7 +350,6 @@ letter-spacing: 0%;
 text-align: left;
 }
 .section-5{
-position: absolute;
 width: 1140px;
 height: 632px;
 left: 150px;
@@ -407,4 +406,63 @@ main input[type="textarea"]{
     height: 40px;
     background-color: white;
     width: 100%
+}
+/* footer-1-style */
+.footer-1{
+width: 1440px;
+height: 428px;
+left: 0;
+right: 0;
+top: 3615px;
+bottom: 0;
+color: #FFFFFF;
+border-top: 1px solid;
+box-sizing: border-box;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+background: rgb(255, 255, 255,255);
+}
+.footer-title{
+font-size: 100px;
+font-weight: 900;
+line-height: 121px;
+letter-spacing: 0%;
+text-align: center;
+color: #4E47FF;
+}
+.footer-description{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #8987A1;
+    text-align: center;
+    line-height: 150%;
+    position: static;
+    width: 531px;
+    height: 48px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8;
+padding: 0px 50px;
+}
+footer li{
+    list-style: none;
+    padding: 15px;
+    justify-content: space-around;
+}
+footer a{
+text-decoration: none;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    position: static;
+width: 401px;
+height: 24px;
+align-items: center;
+margin: 20px 0px;
+}
+.footer-log{
+    margin: 104px 455px 103px 454px;
 }
