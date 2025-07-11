@@ -266,3 +266,99 @@ padding: 0px;
 .coler-1{
  background-color: #F5F8FF;
 }
+/* section-4 style */
+.section-4{
+
+margin-top: 250px;
+width: 1140px;
+height: 696.77px;
+left: 151px;
+top: 2180px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20;
+padding: 71px 150px 71px 150px;
+border: none;
+}
+.ready-title{
+ color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 50px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+position: static;
+width: 516px;
+height: 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20;
+padding: 71px 150px 71px 150px;
+}
+.imge-cd{
+position: static;
+width: 840px;
+height: 364.77px;
+border-radius: 48px;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+margin: 20px 0px;
+}
+.focus-subtitle{
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height:140%;
+letter-spacing: 0%;
+text-align: left;
+}
+.button-cd{
+background-color: #4E47FF;
+box-sizing: border-box;
+border-radius: 10px;
+backdrop-filter: blur(4px);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 12px 36px 12px 36px;
+}
+.focus{
+    line-height: 130px;
+}
+.imge-cd{
+    background-image: url(../style/Assets/wc-big.png);
+    padding:163px 149px 163px 149px;
+
+}
+/* section-5 */
+.section-5-title{
+color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 97px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.section-5{
+position: absolute;
+width: 1140px;
+height: 632px;
+left: 150px;
+top: 2969px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 233;
+padding: 71px 0px 71px 0px;
+}
