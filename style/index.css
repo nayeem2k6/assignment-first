@@ -205,3 +205,64 @@ line-height: 0px;
 letter-spacing: 0%;
 text-align: center;
 }
+/* what-user-say */
+.user-say{
+    text-align: center;
+    color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 42px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0%;
+text-align: center;
+}
+.skills-continer{
+display: flex;
+gap: 20px;
+}
+.skill-title{
+    color: rgb(30, 30, 30);
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: -2%;
+text-align: left;
+}
+.skill-description{
+    color: rgb(30, 30, 30);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+.skill{
+    box-sizing: border-box;
+border: 1px solid rgb(242, 237, 237);
+border-radius: 14px;
+background: rgba(255, 255, 255, 0.5);
+}
+.skill-name :hover{
+    width:318px ;
+    line-height: 10px;
+    text-decoration: underline;
+    
+}
+.section-3{
+position: absolute;
+width: 1140px;
+height: 342px;
+left: 151px;
+top: 1701px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 50;
+padding: 0px;
+}
+.coler-1{
+ background-color: #F5F8FF;
+}
