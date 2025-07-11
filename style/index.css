@@ -362,3 +362,49 @@ align-items: center;
 gap: 233;
 padding: 71px 0px 71px 0px;
 }
+.from-make{
+    display: flex;
+    gap: 100px;
+}
+.valu-1{
+background-color: #4E47FF;
+width: 497px;
+height: 62px;
+font-size: 16px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+}
+.label-1{
+position: static;
+width: 497px;
+height: 22px;
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+main input[type="text"]{
+    border-radius: 5px;
+    height: 40px;
+    background-color: white;
+    display: block;
+    width: 100%;
+}
+main input[type="email"]{
+    border-radius: 5px;
+    height: 40px;
+    background-color: white;
+    display: block;
+    width: 100%;
+}
+main input[type="textarea"]{
+    border-radius: 5px;
+    height: 40px;
+    background-color: white;
+    width: 100%
+}
